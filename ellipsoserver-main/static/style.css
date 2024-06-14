@@ -1,0 +1,237 @@
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* main layout */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#page {
+    display: grid;
+    grid-template-areas: "side graph" "side selected";
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: minmax(250px, .3fr) 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+#page > aside {
+    grid-area: side;
+    background-color: #1e293b;
+    color: white;
+}
+
+#page > #graph {
+    grid-area: graph;
+    background-color: #64748b;
+    color: white;
+}
+
+#page > #graph img#graph-img {
+    width: 100%;
+    height: 60svh;
+    object-fit: contain;
+} 
+
+#page > #selected {
+    grid-area: selected;
+    background-color: #334155;
+    color: white;
+
+    overflow: auto;
+}
+
+/* side material menu */
+#page > aside h1 {
+    padding: 10px;
+}
+#page > aside > #materials {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    max-height: 100svh;
+}
+
+#page > aside > #materials > .filematerials {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    overflow: auto;
+}
+
+#page > aside > #materials > .filematerials > .material-item {
+    position: relative;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    cursor: pointer;
+    width: 100%;
+}
+
+#page > aside > #materials > .filematerials > .material-item > .material-item-name {
+    font-weight: 300;
+    pointer-events: none;
+}
+
+#page > aside > #materials > .filematerials > .material-item > .material-item-plus {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    pointer-events: none;
+
+    display: none;
+}
+
+#page > aside > #materials > .filematerials > .material-item:hover > .material-item-plus {
+    display: block;
+    font-weight: 700;
+}
+
+/* aside cauchy/constant */
+#page > aside h2 {
+    padding: 30px 10px 2px 10px;
+    margin: 0;
+}
+#page > aside .aside-inputs {
+    display: flex;
+    gap: 4px;
+}
+#page > aside .aside-inputs > .aside-input-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#page > aside .aside-inputs > .aside-input-group > label {
+    display: block;
+    padding: 2px 0;
+    text-align: center;
+}
+
+#page > aside input {
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    background-color: #020617;
+    color: white;
+    
+    text-align: center;
+}
+
+#page > aside .aside-100w-plusbtn {
+    text-align: center;
+    background-color: #334155;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#page > aside .aside-100w-plusbtn:hover {
+    background-color: #4b607e;
+}
+
+/* graph */
+#page > #graph {
+    display: grid;
+    place-items: center;
+}
+
+#page > #graph #graph-inputs {
+    display: flex;
+    gap: 24px;
+}
+
+#page > #graph .graph-input > small {
+    display: block;
+    padding: 10px 10px 3px 0;
+}
+
+#page > #graph .graph-input > input {
+    width: 100%;
+    max-width: 100px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #020617;
+    color: white;
+}
+
+#page > #graph .graph-input > input[type='checkbox'] {
+    width:29px;
+    height:29px;
+    accent-color: #020617;
+}
+
+#page > #graph #errors {
+    margin-top: 10px;
+    color: #d97b7b;
+}
+
+/* selected */
+#page > #selected > table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#page > #selected > table th {
+    text-align: left;
+    padding: 5px 10px;
+}
+
+#page > #selected > table td {
+    padding: 5px 10px;
+}
+
+#page > #selected > table input {
+    width: 100%;
+    max-width: 100px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #020617;
+    color: white;
+}
+
+#page > #selected > table input:disabled {
+    color: #7c7c7c;
+    cursor: not-allowed;
+}
+
+#page > #selected #selected-errors {
+    margin: 10px 0 0 10px;
+    color: #d97b7b;
+}
+
+.buttons-row {
+    display: flex;
+    gap: 4px;
+}
+
+.btn-action {
+    width: 28px;
+    height: 28px;
+    background-color: #475569;
+    color: white;
+    font-weight: 700;
+}
+
+.btn-action:hover {
+    background-color: #4b607e;
+}
+
+.btn-action:disabled {
+    color: #7c7c7c;
+    cursor: not-allowed;
+    background-color: #475569;
+}

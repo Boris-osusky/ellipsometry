@@ -1,0 +1,608 @@
+{
+    "type": "ref1",
+    "metadata": {
+      "spectrumType": "Spectroscopic measurement",
+      "date": "01-01-1993",
+      "comments": {
+        "referenceName": "aSi",
+        "materialName": "Amorphous Si.",
+        "originOfTheReference": "Optical functions of CVD-grown thin-film silicon determined by spectroscopic ellipsometry, Applied Physics Letters, submitted to the publication.",
+        "authors": "G.E.Jellison, Jr., Solid State Division, Oak Ridge National Laboratory.",
+        "comment": "Original data in [nm, n, k]. Converted to [eV, Re(Epsilon), Im(Epsilon)] by JY."
+      },
+      "numberOfSpectrum": 1,
+      "unit": "eV",
+      "dataDescription": 256,
+      "spectrum": 1,
+      "startTime": "12:00:00",
+      "endTime": "12:12:00",
+      "incidenceAngle": 70.00,
+      "incidenceAngleUnit": "degree",
+      "accumulationNumber": 1,
+      "integrationTime": 200,
+      "integrationTimeUnit": "ms",
+      "firstPoint": 1.50000,
+      "lastPoint": 5.7500,
+      "increment": 0.02500000,
+      "numberOfPoints": 144
+    },
+    "data": [
+        {
+            "epsRe": 16.5074,
+            "epsIm": 0.1929
+        },
+        {
+            "epsRe": 16.6574,
+            "epsIm": 0.2143
+        },
+        {
+            "epsRe": 16.8204,
+            "epsIm": 0.2437
+        },
+        {
+            "epsRe": 16.9847,
+            "epsIm": 0.2766
+        },
+        {
+            "epsRe": 17.1379,
+            "epsIm": 0.3209
+        },
+        {
+            "epsRe": 17.369,
+            "epsIm": 0.3576
+        },
+        {
+            "epsRe": 17.6709,
+            "epsIm": 0.4291
+        },
+        {
+            "epsRe": 17.903,
+            "epsIm": 0.4978
+        },
+        {
+            "epsRe": 18.0606,
+            "epsIm": 0.5806
+        },
+        {
+            "epsRe": 18.2628,
+            "epsIm": 0.7148
+        },
+        {
+            "epsRe": 18.4609,
+            "epsIm": 0.7553
+        },
+        {
+            "epsRe": 18.6848,
+            "epsIm": 0.8731
+        },
+        {
+            "epsRe": 18.9103,
+            "epsIm": 1.0012
+        },
+        {
+            "epsRe": 19.1403,
+            "epsIm": 1.1367
+        },
+        {
+            "epsRe": 19.3717,
+            "epsIm": 1.2763
+        },
+        {
+            "epsRe": 19.5956,
+            "epsIm": 1.442
+        },
+        {
+            "epsRe": 19.825,
+            "epsIm": 1.6175
+        },
+        {
+            "epsRe": 20.0613,
+            "epsIm": 1.8449
+        },
+        {
+            "epsRe": 20.2795,
+            "epsIm": 2.0388
+        },
+        {
+            "epsRe": 20.4832,
+            "epsIm": 2.1972
+        },
+        {
+            "epsRe": 20.701,
+            "epsIm": 2.4084
+        },
+        {
+            "epsRe": 20.8861,
+            "epsIm": 2.6553
+        },
+        {
+            "epsRe": 21.111,
+            "epsIm": 2.8791
+        },
+        {
+            "epsRe": 21.3458,
+            "epsIm": 3.1062
+        },
+        {
+            "epsRe": 21.5642,
+            "epsIm": 3.3592
+        },
+        {
+            "epsRe": 21.789,
+            "epsIm": 3.6244
+        },
+        {
+            "epsRe": 22.0221,
+            "epsIm": 3.8929
+        },
+        {
+            "epsRe": 22.2637,
+            "epsIm": 4.1643
+        },
+        {
+            "epsRe": 22.4886,
+            "epsIm": 4.3611
+        },
+        {
+            "epsRe": 22.5923,
+            "epsIm": 4.609
+        },
+        {
+            "epsRe": 22.5361,
+            "epsIm": 4.9228
+        },
+        {
+            "epsRe": 22.7208,
+            "epsIm": 5.3952
+        },
+        {
+            "epsRe": 22.9483,
+            "epsIm": 5.8852
+        },
+        {
+            "epsRe": 23.1396,
+            "epsIm": 6.2593
+        },
+        {
+            "epsRe": 23.32,
+            "epsIm": 6.6448
+        },
+        {
+            "epsRe": 23.4857,
+            "epsIm": 7.0444
+        },
+        {
+            "epsRe": 23.632,
+            "epsIm": 7.4612
+        },
+        {
+            "epsRe": 23.7654,
+            "epsIm": 7.8897
+        },
+        {
+            "epsRe": 23.8791,
+            "epsIm": 8.3302
+        },
+        {
+            "epsRe": 23.9842,
+            "epsIm": 8.7767
+        },
+        {
+            "epsRe": 24.0523,
+            "epsIm": 9.2177
+        },
+        {
+            "epsRe": 24.109,
+            "epsIm": 9.659
+        },
+        {
+            "epsRe": 24.1723,
+            "epsIm": 10.1133
+        },
+        {
+            "epsRe": 24.2351,
+            "epsIm": 10.5732
+        },
+        {
+            "epsRe": 24.2873,
+            "epsIm": 11.053
+        },
+        {
+            "epsRe": 24.3322,
+            "epsIm": 11.5438
+        },
+        {
+            "epsRe": 24.3573,
+            "epsIm": 12.0494
+        },
+        {
+            "epsRe": 24.3604,
+            "epsIm": 12.5708
+        },
+        {
+            "epsRe": 24.3534,
+            "epsIm": 13.0965
+        },
+        {
+            "epsRe": 24.3161,
+            "epsIm": 13.6332
+        },
+        {
+            "epsRe": 24.2739,
+            "epsIm": 14.1717
+        },
+        {
+            "epsRe": 24.1951,
+            "epsIm": 14.7227
+        },
+        {
+            "epsRe": 24.1023,
+            "epsIm": 15.2779
+        },
+        {
+            "epsRe": 24.0321,
+            "epsIm": 15.8761
+        },
+        {
+            "epsRe": 24.0281,
+            "epsIm": 16.5856
+        },
+        {
+            "epsRe": 24.0169,
+            "epsIm": 17.2998
+        },
+        {
+            "epsRe": 23.7915,
+            "epsIm": 17.8113
+        },
+        {
+            "epsRe": 23.4547,
+            "epsIm": 18.2133
+        },
+        {
+            "epsRe": 23.1144,
+            "epsIm": 18.6121
+        },
+        {
+            "epsRe": 22.8799,
+            "epsIm": 19.1883
+        },
+        {
+            "epsRe": 22.5877,
+            "epsIm": 19.7538
+        },
+        {
+            "epsRe": 22.267,
+            "epsIm": 20.314
+        },
+        {
+            "epsRe": 21.9546,
+            "epsIm": 20.8681
+        },
+        {
+            "epsRe": 21.6516,
+            "epsIm": 21.411
+        },
+        {
+            "epsRe": 21.3205,
+            "epsIm": 21.9491
+        },
+        {
+            "epsRe": 20.9127,
+            "epsIm": 22.5025
+        },
+        {
+            "epsRe": 20.4939,
+            "epsIm": 23.0287
+        },
+        {
+            "epsRe": 20.0373,
+            "epsIm": 23.5519
+        },
+        {
+            "epsRe": 19.543,
+            "epsIm": 24.0753
+        },
+        {
+            "epsRe": 19.0522,
+            "epsIm": 24.5735
+        },
+        {
+            "epsRe": 18.4963,
+            "epsIm": 25.0606
+        },
+        {
+            "epsRe": 17.9303,
+            "epsIm": 25.5214
+        },
+        {
+            "epsRe": 17.3645,
+            "epsIm": 25.9534
+        },
+        {
+            "epsRe": 16.7709,
+            "epsIm": 26.3561
+        },
+        {
+            "epsRe": 16.136,
+            "epsIm": 26.7472
+        },
+        {
+            "epsRe": 15.4815,
+            "epsIm": 27.1185
+        },
+        {
+            "epsRe": 14.8326,
+            "epsIm": 27.4492
+        },
+        {
+            "epsRe": 14.1456,
+            "epsIm": 27.7588
+        },
+        {
+            "epsRe": 13.4444,
+            "epsIm": 28.0426
+        },
+        {
+            "epsRe": 12.7436,
+            "epsIm": 28.2763
+        },
+        {
+            "epsRe": 12.0246,
+            "epsIm": 28.4783
+        },
+        {
+            "epsRe": 11.2965,
+            "epsIm": 28.6553
+        },
+        {
+            "epsRe": 10.5657,
+            "epsIm": 28.7759
+        },
+        {
+            "epsRe": 9.8339,
+            "epsIm": 28.868
+        },
+        {
+            "epsRe": 9.1018,
+            "epsIm": 28.9301
+        },
+        {
+            "epsRe": 8.4069,
+            "epsIm": 28.9424
+        },
+        {
+            "epsRe": 7.7167,
+            "epsIm": 28.943
+        },
+        {
+            "epsRe": 6.9931,
+            "epsIm": 28.9679
+        },
+        {
+            "epsRe": 6.2621,
+            "epsIm": 28.9381
+        },
+        {
+            "epsRe": 5.5206,
+            "epsIm": 28.8277
+        },
+        {
+            "epsRe": 4.8518,
+            "epsIm": 28.7123
+        },
+        {
+            "epsRe": 4.2301,
+            "epsIm": 28.5926
+        },
+        {
+            "epsRe": 3.5734,
+            "epsIm": 28.4066
+        },
+        {
+            "epsRe": 2.9119,
+            "epsIm": 28.1981
+        },
+        {
+            "epsRe": 2.2831,
+            "epsIm": 27.9732
+        },
+        {
+            "epsRe": 1.6626,
+            "epsIm": 27.7416
+        },
+        {
+            "epsRe": 1.1029,
+            "epsIm": 27.4762
+        },
+        {
+            "epsRe": 0.5499,
+            "epsIm": 27.2061
+        },
+        {
+            "epsRe": 0.027,
+            "epsIm": 26.9193
+        },
+        {
+            "epsRe": -0.4902,
+            "epsIm": 26.6275
+        },
+        {
+            "epsRe": -0.9958,
+            "epsIm": 26.2919
+        },
+        {
+            "epsRe": -1.4952,
+            "epsIm": 25.9534
+        },
+        {
+            "epsRe": -1.9398,
+            "epsIm": 25.6104
+        },
+        {
+            "epsRe": -2.3771,
+            "epsIm": 25.2655
+        },
+        {
+            "epsRe": -2.7967,
+            "epsIm": 24.8904
+        },
+        {
+            "epsRe": -3.208,
+            "epsIm": 24.5091
+        },
+        {
+            "epsRe": -3.5968,
+            "epsIm": 24.1434
+        },
+        {
+            "epsRe": -3.9654,
+            "epsIm": 23.7637
+        },
+        {
+            "epsRe": -4.3078,
+            "epsIm": 23.3689
+        },
+        {
+            "epsRe": -4.6226,
+            "epsIm": 22.9878
+        },
+        {
+            "epsRe": -4.922,
+            "epsIm": 22.6283
+        },
+        {
+            "epsRe": -5.1987,
+            "epsIm": 22.2363
+        },
+        {
+            "epsRe": -5.4416,
+            "epsIm": 21.861
+        },
+        {
+            "epsRe": -5.7086,
+            "epsIm": 21.4789
+        },
+        {
+            "epsRe": -5.9454,
+            "epsIm": 21.1112
+        },
+        {
+            "epsRe": -6.1593,
+            "epsIm": 20.7395
+        },
+        {
+            "epsRe": -6.3744,
+            "epsIm": 20.3423
+        },
+        {
+            "epsRe": -6.5639,
+            "epsIm": 19.9593
+        },
+        {
+            "epsRe": -6.7409,
+            "epsIm": 19.6328
+        },
+        {
+            "epsRe": -6.8982,
+            "epsIm": 19.2643
+        },
+        {
+            "epsRe": -7.0402,
+            "epsIm": 18.8715
+        },
+        {
+            "epsRe": -7.176,
+            "epsIm": 18.5014
+        },
+        {
+            "epsRe": -7.2885,
+            "epsIm": 18.1524
+        },
+        {
+            "epsRe": -7.4111,
+            "epsIm": 17.8384
+        },
+        {
+            "epsRe": -7.5256,
+            "epsIm": 17.5284
+        },
+        {
+            "epsRe": -7.6096,
+            "epsIm": 17.188
+        },
+        {
+            "epsRe": -7.7162,
+            "epsIm": 16.8629
+        },
+        {
+            "epsRe": -7.8016,
+            "epsIm": 16.5345
+        },
+        {
+            "epsRe": -7.868,
+            "epsIm": 16.209
+        },
+        {
+            "epsRe": -7.9351,
+            "epsIm": 15.9227
+        },
+        {
+            "epsRe": -7.9734,
+            "epsIm": 15.6266
+        },
+        {
+            "epsRe": -8.0069,
+            "epsIm": 15.3196
+        },
+        {
+            "epsRe": -8.0652,
+            "epsIm": 14.9892
+        },
+        {
+            "epsRe": -8.1206,
+            "epsIm": 14.7119
+        },
+        {
+            "epsRe": -8.1649,
+            "epsIm": 14.4398
+        },
+        {
+            "epsRe": -8.1813,
+            "epsIm": 14.1358
+        },
+        {
+            "epsRe": -8.1773,
+            "epsIm": 13.8825
+        },
+        {
+            "epsRe": -8.1687,
+            "epsIm": 13.6401
+        },
+        {
+            "epsRe": -8.1723,
+            "epsIm": 13.3635
+        },
+        {
+            "epsRe": -8.1781,
+            "epsIm": 13.1001
+        },
+        {
+            "epsRe": -8.1853,
+            "epsIm": 12.8458
+        },
+        {
+            "epsRe": -8.2259,
+            "epsIm": 12.6193
+        },
+        {
+            "epsRe": -8.2481,
+            "epsIm": 12.3738
+        },
+        {
+            "epsRe": -8.242,
+            "epsIm": 12.0983
+        }
+    ]
+  
+}

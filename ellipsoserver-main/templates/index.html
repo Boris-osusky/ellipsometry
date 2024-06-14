@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ellipso</title>
+    <link href="/static/normalize.css" rel="stylesheet">
+    <link href="/static/style.css" rel="stylesheet">
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body>
+    <div id="page">
+      <aside>
+        <div id="materials">
+          <h1>Ellipso</h1>
+          <div class="filematerials">
+            {% for material in materials %}
+              <div class="material-item" data-name="{{material['name']}}" data-type="{{material['type']}}" data-path="{{material['path']}}" data-umin="{{material['umin']}}" data-umax="{{material['umax']}}">
+                <div class="material-item-name">{{material["name"]}}</div>
+                <div class="material-item-plus">+</div>
+              </div>
+            {% endfor %}
+          </div>
+
+          <h2>Cauchy</h2>
+          <div class="aside-inputs">
+            <div class="aside-input-group">
+              <label for="cauchy-a">A</label>
+              <input id="cauchy-a" type="text" value="1.5" >
+            </div>
+            <div class="aside-input-group">
+              <label for="cauchy-b">B</label>
+              <input id="cauchy-b" type="text" value="0" >
+            </div>
+            <div class="aside-input-group">
+              <label for="cauchy-c">C</label>
+              <input id="cauchy-c" type="text" value="0" >
+            </div>
+          </div>
+          <div id="btn-newcauchy" class="aside-100w-plusbtn">Create layer →</div>
+
+          <h2>Constant</h2>
+          <div class="aside-inputs">
+            <div class="aside-input-group">
+              <label for="constant-n">N</label>
+              <input id="constant-n" type="text" value="1" >
+            </div>
+            <div class="aside-input-group">
+              <label for="constant-k">K</label>
+              <input id="constant-k" type="text" value="0" >
+            </div>
+          </div>
+          <div id="btn-newconstant" class="aside-100w-plusbtn">Create layer →</div>
+        </div>
+
+      </aside>
+      <main id="graph">
+        <div>
+          <img id="graph-img" />
+          <div id="graph-inputs">
+            <div class="graph-input">
+              <small>Angle</small>
+              <input id="input-angle" type="number" value="70">
+            </div>
+            <div class="graph-input">
+              <small>Wave length (nm)</small>
+              <input id="input-xfrom" type="number" value="207" min="207"> - <input id="input-xto" type="number" value="826" max="826">
+            </div>
+            <div class="graph-input">
+              <small>delta</small>
+              <input id="function-delta" type="checkbox" checked onclick="toggleFunction('delta')">
+            </div>
+            <div class="graph-input">
+              <small>psi</small>
+              <input id="function-psi" type="checkbox" checked onclick="toggleFunction('psi')">
+            </div>
+            <div class="graph-input">
+              <small>rs</small>
+              <input id="function-rs" type="checkbox" checked onclick="toggleFunction('rs')">
+            </div>
+            <div class="graph-input">
+              <small>rp</small>
+              <input id="function-rp" type="checkbox" checked onclick="toggleFunction('rp')">
+            </div>
+          </div>
+          <div id="errors"></div>
+        </div>
+      </main>
+      <div id="selected">
+        <table id="table-selected">
+        </table>
+        <div id="selected-errors"></div>
+      </div>
+    </app>
+  </body>
+</html>
